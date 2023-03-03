@@ -1,4 +1,3 @@
-import React from 'react'
 import HRK from './Assets/HRK.png'
 
 const Navbar = () => {
