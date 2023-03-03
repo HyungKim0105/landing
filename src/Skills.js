@@ -11,68 +11,74 @@ import PCAP from './Assets/Pcap.png';
 import PCEP from './Assets/Pcep.png';
 import GoogleIT from './Assets/GoogleIT.png';
 import AwsCloud from './Assets/AWS-Cloud.png';
+import Container from 'react-bootstrap/Container'
+import Card from 'react-bootstrap/Card'
+import Row from 'react-bootstrap/Row'
+import Col from 'react-bootstrap/Col'
 
 const Skills = () => {
   return (
-    <div>
-      <div>
-        <img src={HTML5Logo} alt="HTML5Logo" />
-        <p>HTML</p>
-      </div>
-      <div>
-        <img src={CSSLogo} alt="CSSLogo" />
-        <p>CSS</p>
-      </div>
-      <div>
-        <img src={JavaScriptLogo} alt="JavaScriptLogo" />
-        <p>JavaScript</p>
-      </div>
-      <div>
-        <img src={ReactLogo} alt="ReactLogo" />
-        <p>React</p>
-      </div>
-      <div>
-        <img src={BootStrapLogo} alt="BootStrapLogo" />
-        <p>BootStrap</p>
-      </div>
-      <div>
-        <img src={PythonLogo} alt="PythonLogo" />
-        <p>Python</p>
-      </div>
-      <div>
-        <img src={GitLogo} alt="GitLogo" />
-        <p>Git</p>
-      </div>
-      <div>
-        <img src={GitHubLogo} alt="GitHubLogo" />
-        <p>GitHub</p>
-      </div>
-      <div>
+    <Container sytle={{ width: '100%', height: '100vh', display: 'flex', justifyContent: 'center'}}>
+      <Row style={{display: 'flex',justifyContent:'space-evenly'}}>
+        <Card style={{height:'5rem',width:'7rem'}}>
+          <img src={HTML5Logo} alt="HTML5Logo" />
+          <p>HTML</p>
+        </Card>
+        <Card style={{height:'5rem',width:'7rem'}}>
+          <img src={CSSLogo} alt="CSSLogo" />
+          <p>CSS</p>
+        </Card>
+        <Card style={{height:'5rem',width:'7rem'}}>
+          <img src={JavaScriptLogo} alt="JavaScriptLogo" />
+          <p>JavaScript</p>
+        </Card>
+        <Card style={{height:'5rem',width:'7rem'}}>
+          <img src={ReactLogo} alt="ReactLogo" />
+          <p>React</p>
+        </Card>
+        <Card style={{height:'5rem',width:'7rem'}}>
+          <img src={BootStrapLogo} alt="BootStrapLogo" />
+          <p>BootStrap</p>
+        </Card>
+        <Card style={{height:'5rem',width:'7rem'}}>
+          <img src={PythonLogo} alt="PythonLogo" />
+          <p>Python</p>
+        </Card>
+        <Card style={{height:'5rem',width:'7rem'}}>
+          <img src={GitLogo} alt="GitLogo" />
+          <p>Git</p>
+        </Card>
+        <Card style={{height:'5rem',width:'7rem'}}>
+          <img src={GitHubLogo} alt="GitHubLogo" />
+          <p>GitHub</p>
+        </Card>
+      </Row>
+      <Row style={{marginTop: '5rem', textAlign: 'center'}}>
         <h1>Certifications</h1>
-        <div>
-          <div>
+      </Row>
+      <Row style={{display: 'flex',justifyContent:'space-evenly', marginTop: '5rem'}}>
+          <Card style={{height:'5rem',width:'7rem'}}>
             <img src={Meta} alt="Meta" />
             <p>Meta Front End</p>
-          </div>
-          <div>
+          </Card>
+          <Card style={{height:'5rem',width:'7rem'}}>
             <img src={PCAP} alt="PCAP" />
             <p>Python Certified Associate</p>
-          </div>
-          <div>
+          </Card>
+          <Card style={{height:'5rem',width:'7rem'}}>
             <img src={PCEP} alt="PCEP" />
             <p>Python Certified Entry</p>
-          </div>
-          <div>
+          </Card>
+          <Card style={{height:'5rem',width:'7rem'}}>
             <img src={GoogleIT} alt="GoogleIT" />
             <p>Google IT</p>
-          </div>
-          <div>
+          </Card>
+          <Card style={{height:'5rem',width:'7rem'}}>
             <img src={AwsCloud} alt="AwsCloud" />
             <p>AWS Cloud</p>
-          </div>
-        </div>
-      </div>
-    </div>
+          </Card>
+        </Row>
+    </Container>
   )
 }
 
