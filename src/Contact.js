@@ -21,7 +21,7 @@ const Contact = () => {
   };
 
   return (
-    <Container style={{width:'100%', height:'80vh', justifyContent:'center', display:'flex',marginBottom:'3rem'}}>
+    <Container style={{width:'100%', height:'80vh', justifyContent:'center', display:'flex',marginBottom:'3rem'}} id="contact">
       <Form style={{textAlign:'center'}} ref={form} onSubmit={sendEmail} id="contactForm">
         <h1 style={{ textAlign:'center' }}>Contact</h1>
         <Form.Group  className="mb-3" controlId="formBasicEmail" style={{width:'50rem', marginTop:'2rem'}}>

@@ -5,7 +5,6 @@ import Contact from './Contact';
 import Projects from './Projects';
 import NaviLink from './Navbar';
 
-
 function App() {
   return (
     <>

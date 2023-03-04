@@ -1,4 +1,8 @@
 import Restaurant1 from './Assets/Restaurant1.jpg';
+import Restaurant2 from './Assets/Restaurant2.jpeg';
+import Restaurant3 from './Assets/Restaurant3.jpeg';
+import Restaurant4 from './Assets/Restaurant4.jpeg';
+import Restaurant5 from './Assets/Restaurant5.png';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
@@ -8,15 +12,32 @@ import HTML5 from './Assets/HTML5_Badge.svg'
 import Figure from 'react-bootstrap/Figure'
 import CSS from './Assets/Css-icon.svg';
 import ReactIcon from './Assets/React-icon.png'
+import Carousel from 'react-bootstrap/Carousel';
 
 const Projects = () => {
   return (
-    <Container style={{ width: '100%', display: 'flex', justifyContent: 'center', height: '100vh' }}>
+    <Container style={{ width: '100%', display: 'flex', justifyContent: 'center', height: '100vh' }} id="project">
       <Card style={{ width: '100%', display: 'flex', justifyContent: 'center', textAlign: 'center', border: 'none'}} >
         <h1>Projects</h1>
         <Row style={{ marginTop: '5rem'}}>
           <Col>
-            <Card.Img src={Restaurant1} />
+            <Carousel fade>
+              <Carousel.Item interval={1000}>
+                <Card.Img src={Restaurant1} alt='Restaurant1'/>
+              </Carousel.Item>
+              <Carousel.Item interval={1000}>
+                <Card.Img src={Restaurant2} alt='Restaurant2'/>
+              </Carousel.Item>
+              <Carousel.Item interval={1000}>
+                <Card.Img src={Restaurant3} alt='Restaurant3'/>
+              </Carousel.Item>
+              <Carousel.Item interval={1000}>
+                <Card.Img src={Restaurant4} alt='Restaurant4'/>
+              </Carousel.Item>
+              <Carousel.Item interval={1000}>
+                <Card.Img src={Restaurant5} alt='Restaurant5'/>
+              </Carousel.Item>
+            </Carousel>
           </Col>
           <Col style={{display: 'flex', alignItems: 'center'}}>
             <Card.Body>

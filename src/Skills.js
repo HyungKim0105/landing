@@ -18,11 +18,11 @@ import Button from 'react-bootstrap/Button'
 
 const Skills = () => {
   return (
-    <Container sytle={{ width: '100%', display: 'flex', justifyContent: 'center'}}>
-      <Row style={{marginTop: '5rem', textAlign: 'center'}}>
+    <Container sytle={{ width: '100%', display: 'flex', justifyContent: 'center', height:'95vh'}} id="skills">
+      <Row style={{marginTop: '3rem', textAlign: 'center'}}>
         <h1>Skills</h1>
       </Row>
-      <Row style={{display: 'flex',justifyContent:'space-evenly', marginTop: '5rem'}}>
+      <Row style={{display: 'flex',justifyContent:'space-evenly', marginTop: '3rem'}}>
         <Card style={{height:'15rem',width:'10rem', textAlign: 'center', border: 'none'}}>
           <Card.Img src={HTML5Logo} alt="HTML5Logo" style={{height: '8rem'}}/>
           <Card.Body>
@@ -72,10 +72,10 @@ const Skills = () => {
           </Card.Body>
         </Card>
       </Row>
-      <Row style={{ marginTop: '5rem', textAlign: 'center'}}>
+      <Row style={{textAlign: 'center'}}>
         <h1>Certifications</h1>
       </Row>
-      <Row style={{ display: 'flex',justifyContent:'space-evenly', marginTop: '5rem'}}>
+      <Row style={{ display: 'flex',justifyContent:'space-evenly', marginTop: '3rem'}}>
           <Card style={{ height:'22rem', width:'11rem', border: 'none'}}>
             <Card.Img src={Meta} alt="Meta" />
             <Card.Body style={{textAlign: 'center'}}>
@@ -106,7 +106,7 @@ const Skills = () => {
             </Card.Body>
             <Button onClick={() => window.open('https://www.credly.com/badges/be103cd0-b385-4225-b036-a54c5ec2a818/public_url')}>Verify</Button>
           </Card>
-          <Card style={{ height:'22rem', width:'11rem', border: 'none'}}>
+          <Card style={{ height:'22rem', width:'11rem', border:'none'}}>
             <Card.Img src={AwsCloud} alt="AwsCloud" />
             <Card.Body style={{textAlign: 'center'}}>
               <Card.Title>AWS Certified Cloud Practitioner</Card.Title>

@@ -19,10 +19,10 @@ const NaviLink = () => {
           </Navbar.Brand>
         </Container>
           <Nav>
-              <Nav.Link >Home</Nav.Link>
-              <Nav.Link >Skills</Nav.Link>
-              <Nav.Link >Projects</Nav.Link>
-              <Nav.Link >Contact</Nav.Link>
+            <Nav.Link href="#home">Home</Nav.Link>
+            <Nav.Link href="#skills">Skills</Nav.Link>
+            <Nav.Link href="#project">Project</Nav.Link>
+            <Nav.Link href="#contact">Contact</Nav.Link>
           </Nav>
       </Navbar>
   )

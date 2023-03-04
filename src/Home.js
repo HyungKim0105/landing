@@ -6,7 +6,7 @@ import Container from 'react-bootstrap/Container'
 
 const Home = () => {
   return (
-    <Container style={{ width: '100%', display: 'flex', justifyContent: 'center', height: '95vh' }}>
+    <Container style={{ width: '100%', display: 'flex', justifyContent: 'center', height: '95vh' }} id="home">
     <Card style={{ width: '100%', display: 'flex', justifyContent: 'center', textAlign: 'center', border: 'none'}}>
       <Row >
         <Col>
