@@ -11,9 +11,10 @@ const NaviLink = () => {
             <img
               alt="HRK"
               src={HRK}
-              width="50"
-              height="50"
+              width="70"
+              height="70"
               className="d-inline-block align-top"
+              style={{borderRadius: '50px'}}
             />
           </Navbar.Brand>
         </Container>

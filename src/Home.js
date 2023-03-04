@@ -6,7 +6,7 @@ import Container from 'react-bootstrap/Container'
 
 const Home = () => {
   return (
-    <Container style={{ width: '100%', display: 'flex', justifyContent: 'center', height: '100vh' }}>
+    <Container style={{ width: '100%', display: 'flex', justifyContent: 'center', height: '95vh' }}>
     <Card style={{ width: '100%', display: 'flex', justifyContent: 'center', textAlign: 'center', border: 'none'}}>
       <Row >
         <Col>
@@ -16,8 +16,7 @@ const Home = () => {
           <Card.Body>
             <Card.Title as='h1' sytle={{}}>I am a Front End Developer</Card.Title>
             <Card.Text as='p'>
-              Some quick example text to build on the card title and make up the
-              bulk of the card's content.
+              From employee/business owner in retail and hospitality industry to following my passion into software engineering.
             </Card.Text>
           </Card.Body>
         </Col>
