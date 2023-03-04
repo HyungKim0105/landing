@@ -3,16 +3,18 @@ import Home from './Home';
 import Skills from './Skills'
 import Contact from './Contact';
 import Projects from './Projects';
+import NaviLink from './Navbar';
 
 
 function App() {
   return (
-    <div>
+    <>
+      <NaviLink />
       <Home />
       <Skills />
       <Projects />
       <Contact />
-    </div>
+    </>
   );
 }
 

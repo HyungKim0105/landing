@@ -113,7 +113,6 @@ const Skills = () => {
             </Card.Body>
             <Button onClick={() => window.open('https://www.credly.com/badges/5bf1062c-f471-4c0a-8e81-3066d2307a56/public_url')}>Verify</Button>
           </Card>
-         
         </Row>
     </Container>
   )

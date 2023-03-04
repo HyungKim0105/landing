@@ -1,4 +1,4 @@
-import HRK from './Assets/HRK.png'
+import HRK from './Assets/HRK.png';
 import Container from 'react-bootstrap/Container';
 import Navbar from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav';
@@ -7,7 +7,7 @@ const NaviLink = () => {
   return (
       <Navbar bg="dark" variant="dark" sticky="top">
         <Container>
-          <Navbar.Brand href="#home">
+          <Navbar.Brand>
             <img
               alt="HRK"
               src={HRK}
@@ -18,7 +18,7 @@ const NaviLink = () => {
             />
           </Navbar.Brand>
         </Container>
-          <Nav className="me-auto">
+          <Nav>
               <Nav.Link >Home</Nav.Link>
               <Nav.Link >Skills</Nav.Link>
               <Nav.Link >Projects</Nav.Link>
