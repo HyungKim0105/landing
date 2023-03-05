@@ -1,7 +1,7 @@
-import Restaurant1 from './Assets/Restaurant1.jpg';
-import Restaurant2 from './Assets/Restaurant2.jpeg';
-import Restaurant3 from './Assets/Restaurant3.jpeg';
-import Restaurant4 from './Assets/Restaurant4.jpeg';
+import Restaurant1 from './Assets/Restaurant1.png';
+import Restaurant2 from './Assets/Restaurant2.png';
+import Restaurant3 from './Assets/Restaurant3.png';
+import Restaurant4 from './Assets/Restaurant4.png';
 import Restaurant5 from './Assets/Restaurant5.png';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
@@ -19,22 +19,22 @@ const Projects = () => {
     <Container style={{ width: '100%', display: 'flex', justifyContent: 'center', height: '100vh' }} id="project">
       <Card style={{ width: '100%', display: 'flex', justifyContent: 'center', textAlign: 'center', border: 'none'}} >
         <h1>Projects</h1>
-        <Row style={{ marginTop: '5rem'}}>
-          <Col>
-            <Carousel fade>
-              <Carousel.Item interval={1000}>
+        <Row style={{ marginTop: '5rem', height: '50vh',display:'flex'}}>
+          <Col style={{display: 'flex', alignItems:'center'}}>
+            <Carousel fade variant="dark" style={{height:'25rem',width:'100%'}}>
+              <Carousel.Item interval={2000}>
                 <Card.Img src={Restaurant1} alt='Restaurant1'/>
               </Carousel.Item>
-              <Carousel.Item interval={1000}>
+              <Carousel.Item interval={2000}>
                 <Card.Img src={Restaurant2} alt='Restaurant2'/>
               </Carousel.Item>
-              <Carousel.Item interval={1000}>
+              <Carousel.Item interval={2000}>
                 <Card.Img src={Restaurant3} alt='Restaurant3'/>
               </Carousel.Item>
-              <Carousel.Item interval={1000}>
+              <Carousel.Item interval={2000}>
                 <Card.Img src={Restaurant4} alt='Restaurant4'/>
               </Carousel.Item>
-              <Carousel.Item interval={1000}>
+              <Carousel.Item interval={2000}>
                 <Card.Img src={Restaurant5} alt='Restaurant5'/>
               </Carousel.Item>
             </Carousel>
