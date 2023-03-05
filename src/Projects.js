@@ -54,7 +54,7 @@ const Projects = () => {
                 <Figure.Image src={CSS} style={{ width: '2rem' }} />
                 <Figure.Image src={ReactIcon} style={{ width: '2rem' }} />
               </Figure>
-              <Button style={{ width: '8rem', marginRight: '1rem', marginTop: '1rem'}} onClick={() => window.open('https://Restaurant.HyungKim.dev')}>Live</Button>
+              <Button style={{ width: '8rem', marginRight: '1rem', marginTop: '1rem'}} onClick={() => window.open('https://master.d1mjrxfvg9h7zs.amplifyapp.com/')}>Live</Button>
               <Button style={{ width: '8rem', marginLeft: '1rem', marginTop: '1rem'}} onClick={() => window.open('https://github.com/HyungKim0105/restaurant_home')}>Source Code</Button>
             </Card.Body>
           </Col>
