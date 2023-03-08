@@ -4,6 +4,7 @@ import Navbar from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav';
 import { Github, Linkedin, FilePerson } from 'react-bootstrap-icons';
 import { OverlayTrigger, Tooltip } from 'react-bootstrap';
+import Resume from './Assets/Resume.pdf'
 
 const NaviLink = () => {
 
@@ -47,7 +48,7 @@ const NaviLink = () => {
               </a>
             </OverlayTrigger>
             <OverlayTrigger placement='bottom' overlay={tooltipResume}>
-              <a href="Resume.pdf" download>
+              <a href={Resume} download="HyungKim_Resume.pdf">
                 <FilePerson style={{color:'white',height:'30',width:'30',marginRight:'2rem'}}/>
               </a>
             </OverlayTrigger>
